@@ -1,0 +1,23 @@
+-If Something running on port 3000, kill it.
+
+1. netstat -ano | findstr :3000
+output :TCP    127.0.0.1:3000    0.0.0.0:0    LISTENING    12345
+2. taskkill /PID 12345 /F
+
+
+
+-To run project
+cd react-flask-app
+npm i 
+npm start
+
+-To run python
+cd api
+
+Create Virtual Environment:
+
+python -m venv venv
+venv\Scripts\activate
+pip install python-dotenv scikit-learn Flask request jsonify
+python app.py
+
