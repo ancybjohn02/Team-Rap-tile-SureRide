@@ -2,29 +2,6 @@
 Devised strategies to reduce demand-supply imbalance during peak hours 
 Architecure Diagram : 
 ![Image](https://github.com/user-attachments/assets/f3fd2a69-b6a7-4280-8413-02c50cdee142)
-Humanize AI
-
-    Editor
-    History
-    API(Beta)
-
-Log in
-Sign up
-Humanize AI text
-Humanize AI text with the smartest AI humanizer
-
-Transform your AI-generated content into natural, human-like text with the ultimate Humanize AI text tool. This ai-to-human text converter effortlessly converts output from ChatGPT, Bard, Jasper, Grammarly, GPT4, and other AI text generators into text indistinguishable from human writing. Achieve 100% originality and enhance your content creation with the best Humanize AI solution available.
-
-    Free
-    Standard
-    Academic
-    Simple
-    Formal
-
-Ultra run
-372 words
-clear
-Project Description: Driver Acceptance Score and Dynamic Demand Management System
 
 1. Introduction
 This project is designed to make ride allocation more efficient and equitable in a ride-hailing app by applying a Driver Acceptance Score system. The score system will assess drivers with respect to their ride acceptance behavior and reward them with incentives, priority, and performance-based benefits. A Dynamic Demand Management System will also be created that will predict demand for rides, position drivers optimally, and add pre-scheduling features for users.
