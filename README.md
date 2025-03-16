@@ -1,7 +1,7 @@
 # Team-Mudeng-SureRide
 Devised strategies to reduce demand-supply imbalance during peak hours 
 Architecure Diagram : 
-![Image](https://github.com/user-attachments/assets/3b4892c2-a1b1-4ce8-83be-69b5462887ae)
+![Image](https://github.com/user-attachments/assets/f3fd2a69-b6a7-4280-8413-02c50cdee142)
 
 DDemao of our project : 
 
