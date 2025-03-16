@@ -1,0 +1,16 @@
+Reason,Impact on Score,Justification
+Rider -Show,0,Driver arrived but rider didn't show up within 5 minutes
+Vehicle Breakdown,-1,Mechanical issues beyond driver's control
+Rider Misbehavior,0,Rude/abusive/unsafe rider behavior
+Fake Booking Prank,0,Customer made a fake booking (e.g..testing app)
+Emergency / Health Issue,0,Driver has a genuine personal emergency
+Accident on Route,0,Accident delays or blocks the way
+Extreme Weather (Floods- Storms),0,Unsafe driving conditions
+Rider Asked to Cancel,0,Rider themselves requested cancellation
+Doesn't Want to Go to Location,-5,Unfair to riders; drivers should not pick and choose trips frequently
+Prefers Cash Over Digital Payment,-5,Violates cashless payment policy
+Changed Mind After Accepting,-5,Driver should cancel only if necessary
+Too Much Traffic,-3,Traffic is part of the job; cant cancel just because of congestion
+Trip Too Short Low Fare,-5,Discriminating against short trips is unfair
+Rider Rating is Low,-3,Rider rating should not be a reason to cancel/unless severe cases
+Surge Pricing t Applied,-3,If fare is visible before accepting-driver should not cancel later
