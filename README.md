@@ -3,43 +3,187 @@ Devised strategies to reduce demand-supply imbalance during peak hours
 Architecure Diagram : 
 ![Image](https://github.com/user-attachments/assets/f3fd2a69-b6a7-4280-8413-02c50cdee142)
 
-1. Introduction
-This project is designed to make ride allocation more efficient and equitable in a ride-hailing app by applying a Driver Acceptance Score system. The score system will assess drivers with respect to their ride acceptance behavior and reward them with incentives, priority, and performance-based benefits. A Dynamic Demand Management System will also be created that will predict demand for rides, position drivers optimally, and add pre-scheduling features for users.
+---
 
-2. Driver Acceptance Score System
-Each driver will have an Acceptance Score derived from several performance measures, such as:
+# Team-Mudeng-SureRide
 
-Traffic Conditions: Past ride acceptance in different traffic conditions.
+## Introduction
 
-Trip Difficulty: Rates of acceptance for long-distance, low-fare, or challenging terrain rides.
+Team-Mudeng-SureRide aims to enhance ride allocation efficiency in ride-hailing applications, especially during peak hours. The project introduces two primary systems:
 
-Fare Acceptance Patterns: Regularity of accepting fair fare offers.
+1. **Driver Acceptance Score System**: Evaluates drivers based on their ride acceptance behaviors, considering factors like traffic conditions and historical acceptance rates. Drivers with higher scores may receive benefits such as incentives and priority allocations.
 
-Rejection Behavior: Rate and causes of trip rejections.
+2. **Dynamic Demand Management System**: Predicts ride demand, positions drivers optimally, and offers pre-scheduling features for users.
 
-3. Applications of Acceptance Score
+## Repository Structure
 
-Ride Prioritization: Higher acceptance score drivers will be given preference for canceled rides to complete the ride faster.
+The repository is organized as follows:
 
-Performance-Based Rewards: Top-ranked drivers will be rewarded with fuel discounts, special offers, and ranking rewards.
+```
+Team-Mudeng-SureRide/
+├── AcceptanceScore/
+│   ├── acceptance_score_calculator.py
+│   ├── driver_data.csv
+│   └── README.md
+├── AdaptivePricingModel/
+│   ├── pricing_model.py
+│   ├── pricing_data.csv
+│   └── README.md
+├── Prediction/
+│   ├── demand_prediction.py
+│   ├── historical_demand.csv
+│   └── README.md
+├── DataGeneration/
+│   ├── data_augmentation.py
+│   ├── raw_data.csv
+│   └── README.md
+├── ReactPython/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.js
+│   ├── server/
+│   │   ├── server.py
+│   │   └── requirements.txt
+│   └── README.md
+├── .gitignore
+└── README.md
+```
 
-Targeted Incentives: The lower-scoring drivers will also be given higher incentives for picking up peak-hour or challenging rides until their score has reached an established threshold.
+## Module Overviews
 
-Penalty System: These cancellations, including the cause for cancellation, will be monitored and appropriate penalties enforced to uphold reliability of the service.
+### 1. AcceptanceScore
 
-Score Update Mechanism: The acceptance score will be updated every two months with a decay factor to make sure recent performance plays a larger role than older ride history.
+This module focuses on calculating the Driver Acceptance Score based on various performance metrics.
 
-4. Dynamic Demand Management System
-A heatmap-based demand forecast will be incorporated to offer real-time and short-term ride demand predictions within a certain radius (e.g., 1 km). This functionality will enable:
+- **Files**:
+  - `acceptance_score_calculator.py`: Script to compute acceptance scores.
+  - `driver_data.csv`: Dataset containing driver performance metrics.
+  - `README.md`: Detailed documentation for this module.
 
-Motivations to relocate to high-demand locations with lower supply.
+### 2. AdaptivePricingModel
 
-Riders to pre-book rides during peak hours, lowering wait times and maximizing fleet allocation.
+Implements dynamic pricing strategies to balance demand and supply during peak hours.
 
-Dynamic Pricing Options: Riders can either wait for a lower fare or pay an extra fee for priority booking.
+- **Files**:
+  - `pricing_model.py`: Script for adaptive pricing calculations.
+  - `pricing_data.csv`: Historical pricing and demand data.
+  - `README.md`: Detailed documentation for this module.
 
-One-Assured Ride Feature: High-acceptance drivers will be prioritized for essential rides, ensuring ride availability.
+### 3. Prediction
 
-5. Conclusion
-This project aims to enhance ride-hailing efficiency by promoting driver accountability and improving demand-supply balance through data-driven insights. The integration of an acceptance score system and demand forecasting will result in optimized ride distribution, improved driver earnings, and a better experience for riders.
+Handles demand prediction to optimize driver positioning and availability.
 
+- **Files**:
+  - `demand_prediction.py`: Script utilizing machine learning models for demand forecasting.
+  - `historical_demand.csv`: Dataset of historical ride demand.
+  - `README.md`: Detailed documentation for this module.
+
+### 4. DataGeneration
+
+Responsible for generating and augmenting datasets to train and test various models.
+
+- **Files**:
+  - `data_augmentation.py`: Script for data augmentation techniques.
+  - `raw_data.csv`: Initial raw dataset before augmentation.
+  - `README.md`: Detailed documentation for this module.
+
+### 5. ReactPython
+
+Integrates the React frontend with the Python backend to provide a seamless user interface.
+
+- **Directories**:
+  - `app/`: Contains React components and pages.
+  - `server/`: Houses the Python backend server scripts.
+- **Files**:
+  - `App.js`: Main React application file.
+  - `server.py`: Backend server script.
+  - `requirements.txt`: Lists Python dependencies.
+  - `README.md`: Detailed documentation for this module.
+
+## Getting Started
+
+To set up the project locally:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/ancybjohn02/Team-Mudeng-SureRide.git
+   ```
+
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd Team-Mudeng-SureRide
+   ```
+
+3. **Set Up the Backend**:
+
+   - Navigate to the server directory:
+
+     ```bash
+     cd ReactPython/server
+     ```
+
+   - Install the required Python packages:
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+   - Start the backend server:
+
+     ```bash
+     python server.py
+     ```
+
+4. **Set Up the Frontend**:
+
+   - Navigate to the app directory:
+
+     ```bash
+     cd ../app
+     ```
+
+   - Install the required npm packages:
+
+     ```bash
+     npm install
+     ```
+
+   - Start the React application:
+
+     ```bash
+     npm start
+     ```
+
+## Contributing
+
+We welcome contributions to enhance the functionalities of Team-Mudeng-SureRide. Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. Make your changes and commit them:
+
+   ```bash
+   git commit -m "Description of changes"
+   ```
+
+4. Push to the branch:
+
+   ```bash
+   git push origin feature-name
+   ```
+
+5. Open a Pull Request detailing your changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
