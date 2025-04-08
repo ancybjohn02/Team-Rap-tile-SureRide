@@ -15,6 +15,8 @@ Team-Mudeng-SureRide aims to enhance ride allocation efficiency in ride-hailing 
 
 2. **Dynamic Demand Management System**: Predicts ride demand, positions drivers optimally, and offers pre-scheduling features for users.
 
+Video Demo - https://drive.google.com/file/d/1ObfXMun4n6FZ66wygz27tLVaZlKrfKqY/view?usp=sharing
+
 ## Repository Structure
 
 The repository is organized as follows:
