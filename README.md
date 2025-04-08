@@ -9,7 +9,7 @@ Architecure Diagram :
 
 ## Introduction
 
-Team-Mudeng-SureRide aims to enhance ride allocation efficiency in ride-hailing applications, especially during peak hours. The project introduces two primary systems:
+Team-Rap-tile-SureRide aims to enhance ride allocation efficiency in ride-hailing applications, especially during peak hours. The project introduces two primary systems:
 
 1. **Driver Acceptance Score System**: Evaluates drivers based on their ride acceptance behaviors, considering factors like traffic conditions and historical acceptance rates. Drivers with higher scores may receive benefits such as incentives and priority allocations.
 
