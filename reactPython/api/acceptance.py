@@ -2,7 +2,7 @@ import joblib
 import requests
 import pandas as pd
 
-# Load model
+# Load acceptance model 
 model_path = "acceptance_score_model.pkl"
 model = joblib.load(model_path)
 
