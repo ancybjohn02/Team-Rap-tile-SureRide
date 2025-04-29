@@ -184,10 +184,10 @@ We welcome contributions to enhance the functionalities of Team-Mudeng-SureRide.
 
 5. Open a Pull Request detailing your changes.
 
+Video Explanation of Project - https://www.youtube.com/watch?v=kOzGyj3Z-kI&t=2s
+Demo - https://drive.google.com/file/d/1OZ8r-I2i2bNHt0sFb17K3jz8jLGkwdRc/view?usp=sharing
+Presentation - https://www.canva.com/design/DAGeKc6lCwA/9XKp1HrR6u09G6iKgzT_UQ/edit?utm_content=DAGeKc6lCwA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ## License
-
-https://www.youtube.com/watch?v=kOzGyj3Z-kI&t=2s
-
 This project is licensed under the [MIT License](LICENSE).
 
 ---
